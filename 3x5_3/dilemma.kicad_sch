@@ -12,6 +12,224 @@
 		(comment 1 "Licensed under CERN-OHL-W v2")
 	)
 	(lib_symbols
+		(symbol "Device:Battery"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multiple-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "batt voltage-source cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_0_1"
+				(rectangle
+					(start -2.286 -1.27)
+					(end 2.286 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 -2.032)
+					(end 1.524 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D"
 			(pin_numbers hide)
 			(pin_names
@@ -2062,12 +2280,16 @@
 		(uuid "0cbf65f8-4b0f-46ee-bc3f-ec8d365c4f71")
 	)
 	(no_connect
-		(at 265.43 87.63)
-		(uuid "1b20c378-8708-4834-9fe1-13515c540626")
+		(at 229.87 82.55)
+		(uuid "18203288-b829-43af-a005-dc9cfa6c98c7")
 	)
 	(no_connect
 		(at 240.03 95.25)
 		(uuid "2c9ce772-337f-45b5-8ab2-028793eaa7c9")
+	)
+	(no_connect
+		(at 229.87 87.63)
+		(uuid "32307dd9-7771-4000-b90e-8eba676282f7")
 	)
 	(no_connect
 		(at 68.58 69.85)
@@ -2126,16 +2348,16 @@
 		(uuid "6893945c-6d96-4353-8868-687becfcfd9f")
 	)
 	(no_connect
+		(at 265.43 72.39)
+		(uuid "6faedf3f-fabd-4cbc-8480-839868f0bd3f")
+	)
+	(no_connect
 		(at 46.355 95.25)
 		(uuid "7d2df9b9-1c22-49ab-b0f6-f0d05505044e")
 	)
 	(no_connect
 		(at 53.975 95.25)
 		(uuid "7ef78d51-f72f-4ee2-b3a2-b780efec0e78")
-	)
-	(no_connect
-		(at 265.43 82.55)
-		(uuid "7fad5697-76c3-4238-9bd3-ce2f000ff853")
 	)
 	(no_connect
 		(at 229.87 62.23)
@@ -2146,10 +2368,6 @@
 		(uuid "924c0b5b-6f60-4fae-bba8-872f6b1640b6")
 	)
 	(no_connect
-		(at 265.43 85.09)
-		(uuid "93792aba-463b-4ea3-adf6-29499aea5e9d")
-	)
-	(no_connect
 		(at 43.18 95.25)
 		(uuid "9b1beeea-eb77-457c-a69b-da312d170819")
 	)
@@ -2158,12 +2376,12 @@
 		(uuid "a0ebbaa0-ce31-4039-a25b-22abeaba69ab")
 	)
 	(no_connect
-		(at 265.43 80.01)
-		(uuid "a2dc18a5-1791-4b78-9c4d-42069a442d24")
-	)
-	(no_connect
 		(at 229.87 72.39)
 		(uuid "bb6eea2f-6514-436b-8a26-90c8d1e3f63d")
+	)
+	(no_connect
+		(at 229.87 85.09)
+		(uuid "bf0cedaf-793f-4a66-be1e-780d583e5ee0")
 	)
 	(no_connect
 		(at 250.825 95.25)
@@ -4819,16 +5037,16 @@
 	)
 	(global_label "M_ROW2_L"
 		(shape input)
-		(at 229.87 74.93 180)
+		(at 265.43 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "01cc5c8b-41f5-46db-9d54-02b876fc9a5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.115 28.575 0)
+			(at 337.185 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,16 +5159,16 @@
 	)
 	(global_label "M_ROW4_L"
 		(shape input)
-		(at 265.43 72.39 0)
+		(at 229.87 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0effd032-43ee-4e8f-ae4e-0adf566230b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.185 155.575 0)
+			(at 158.115 -8.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,16 +5711,16 @@
 	)
 	(global_label "M_COL2_L"
 		(shape input)
-		(at 229.87 87.63 180)
+		(at 265.43 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "974360a6-c4db-4351-bff5-02fd90f06a0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 364.49 0)
+			(at 290.83 -189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,16 +5731,16 @@
 	)
 	(global_label "M_COL3_L"
 		(shape input)
-		(at 229.87 82.55 180)
+		(at 265.43 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "99713ebb-31f5-4c7c-a15d-4977c230a6d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 359.41 0)
+			(at 290.83 -194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5655,16 +5873,16 @@
 	)
 	(global_label "M_ROW3_L"
 		(shape input)
-		(at 229.87 77.47 180)
+		(at 265.43 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "bc0bdd6b-c157-4aff-aeb3-68d64bf86125")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.115 8.89 0)
+			(at 337.185 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,16 +6055,16 @@
 	)
 	(global_label "M_COL5_L"
 		(shape input)
-		(at 265.43 74.93 0)
+		(at 229.87 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d6fc07c9-84fb-4b74-bfca-ee39fa591d04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.83 -201.93 0)
+			(at 204.47 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5919,16 +6137,16 @@
 	)
 	(global_label "M_COL4_L"
 		(shape input)
-		(at 229.87 80.01 180)
+		(at 265.43 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e7484134-471e-4448-8a89-79a5b0a1c18b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 356.87 0)
+			(at 290.83 -196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,16 +6157,16 @@
 	)
 	(global_label "M_ROW1_L"
 		(shape input)
-		(at 265.43 77.47 0)
+		(at 229.87 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "eb505490-7a08-4bc3-8579-a8e1d9c2ccfb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.9 114.3 0)
+			(at 152.4 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,16 +6177,16 @@
 	)
 	(global_label "M_COL1_L"
 		(shape input)
-		(at 229.87 85.09 180)
+		(at 265.43 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "eb74d947-b3bd-418e-a909-bb7cb7c7fc1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 361.95 0)
+			(at 290.83 -191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9426,8 +9644,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
-			(at 286.512 83.82 0)
+		(property "Value" "GND"
+			(at 287.528 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12706,6 +12924,76 @@
 			(project "dilemma"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "SW5021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 317.5 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc9d83f8-9000-4176-93b4-98c6b50867f6")
+		(property "Reference" "BT5001"
+			(at 321.31 90.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 321.31 93.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0xB2_drawings:LP602945-PCM-LD-A14348"
+			(at 317.5 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 317.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43ed4bec-9cf0-40b6-9645-4694d9e96b10")
+		)
+		(pin "2"
+			(uuid "30faac20-f308-4214-bf23-a79da2ada810")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "BT5001")
 					(unit 1)
 				)
 			)
