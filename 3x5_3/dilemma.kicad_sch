@@ -6506,7 +6506,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 312.42 154.94 0)
 			(effects
 				(font
@@ -6575,7 +6575,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 339.09 175.26 0)
 			(effects
 				(font
@@ -6923,7 +6923,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 259.08 165.1 0)
 			(effects
 				(font
@@ -7610,7 +7610,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 312.42 165.1 0)
 			(effects
 				(font
@@ -8346,7 +8346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 339.09 154.94 0)
 			(effects
 				(font
@@ -9097,7 +9097,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 285.75 185.42 0)
 			(effects
 				(font
@@ -9361,7 +9361,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.014 85.7249 90)
+			(at 88.138 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9426,8 +9426,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 289.404 85.7249 90)
+		(property "Value" "GND_L"
+			(at 286.512 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9846,7 +9846,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 365.76 175.26 0)
 			(effects
 				(font
@@ -10589,7 +10589,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 259.08 175.26 0)
 			(effects
 				(font
@@ -11658,7 +11658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 312.42 175.26 0)
 			(effects
 				(font
@@ -12129,7 +12129,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 312.42 185.42 0)
 			(effects
 				(font
@@ -12332,7 +12332,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 285.75 165.1 0)
 			(effects
 				(font
@@ -12462,8 +12462,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VL"
-			(at 90.17 64.135 0)
+		(property "Value" "+5V"
+			(at 90.17 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12536,7 +12536,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 339.09 165.1 0)
 			(effects
 				(font
@@ -12738,7 +12738,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 285.75 175.26 0)
 			(effects
 				(font
@@ -12807,7 +12807,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 259.08 154.94 0)
 			(effects
 				(font
@@ -13295,7 +13295,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 285.75 154.94 0)
 			(effects
 				(font
@@ -13431,7 +13431,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 365.76 165.1 0)
 			(effects
 				(font
@@ -13580,7 +13580,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 259.08 185.42 0)
 			(effects
 				(font
@@ -14185,7 +14185,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local-libraries:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 365.76 154.94 0)
 			(effects
 				(font
