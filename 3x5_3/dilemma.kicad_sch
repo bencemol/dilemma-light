@@ -2280,28 +2280,24 @@
 		(uuid "0cbf65f8-4b0f-46ee-bc3f-ec8d365c4f71")
 	)
 	(no_connect
-		(at 229.87 82.55)
-		(uuid "18203288-b829-43af-a005-dc9cfa6c98c7")
-	)
-	(no_connect
 		(at 240.03 95.25)
 		(uuid "2c9ce772-337f-45b5-8ab2-028793eaa7c9")
-	)
-	(no_connect
-		(at 229.87 87.63)
-		(uuid "32307dd9-7771-4000-b90e-8eba676282f7")
 	)
 	(no_connect
 		(at 68.58 69.85)
 		(uuid "324e7530-7326-406a-9ee3-d63c324ed3a4")
 	)
 	(no_connect
-		(at 68.58 85.09)
-		(uuid "3b4562f0-d9fa-411b-b6d7-ca7ba97b08c7")
+		(at 33.02 85.09)
+		(uuid "3bf28286-96dc-4a07-b3f7-4a02094dc5b3")
 	)
 	(no_connect
 		(at 229.87 69.85)
 		(uuid "3c96af1d-bd90-4c24-8b6f-9105598a0d6b")
+	)
+	(no_connect
+		(at 265.43 85.09)
+		(uuid "4318d186-8056-4cf1-8ff7-2f0427f2d746")
 	)
 	(no_connect
 		(at 247.015 95.25)
@@ -2336,16 +2332,16 @@
 		(uuid "5b05e15c-3db2-4705-b76b-c12ad52530f0")
 	)
 	(no_connect
-		(at 68.58 80.01)
-		(uuid "5b97a57d-95a2-4ddd-b574-18dfa7eb1d3d")
-	)
-	(no_connect
 		(at 198.12 6.35)
 		(uuid "6224b190-35dc-450b-92fe-4786e00cad8a")
 	)
 	(no_connect
 		(at 33.02 72.39)
 		(uuid "6893945c-6d96-4353-8868-687becfcfd9f")
+	)
+	(no_connect
+		(at 33.02 82.55)
+		(uuid "69b06875-2a07-464a-8c90-273bb156d989")
 	)
 	(no_connect
 		(at 265.43 72.39)
@@ -2368,8 +2364,16 @@
 		(uuid "924c0b5b-6f60-4fae-bba8-872f6b1640b6")
 	)
 	(no_connect
+		(at 68.58 72.39)
+		(uuid "94dc25de-aa7b-4451-a2ff-c19b261bc6aa")
+	)
+	(no_connect
 		(at 43.18 95.25)
 		(uuid "9b1beeea-eb77-457c-a69b-da312d170819")
+	)
+	(no_connect
+		(at 265.43 87.63)
+		(uuid "9f2e3b32-bc43-4f25-8e9d-f969406f6c89")
 	)
 	(no_connect
 		(at 33.02 69.85)
@@ -2380,20 +2384,16 @@
 		(uuid "bb6eea2f-6514-436b-8a26-90c8d1e3f63d")
 	)
 	(no_connect
-		(at 229.87 85.09)
-		(uuid "bf0cedaf-793f-4a66-be1e-780d583e5ee0")
-	)
-	(no_connect
 		(at 250.825 95.25)
 		(uuid "cd55eb5e-6c99-4129-8f65-5d96f5a6e384")
 	)
 	(no_connect
-		(at 68.58 82.55)
-		(uuid "e7e41499-24c3-4da5-9304-812c5e033da4")
+		(at 33.02 87.63)
+		(uuid "eb29e044-6b30-477c-9314-1db049126440")
 	)
 	(no_connect
-		(at 68.58 87.63)
-		(uuid "fdac4c53-1c21-4fe5-8f9a-1605ccd10083")
+		(at 265.43 82.55)
+		(uuid "ff9fcba3-c362-468b-80f0-e1d973529588")
 	)
 	(wire
 		(pts
@@ -5037,16 +5037,16 @@
 	)
 	(global_label "M_ROW2_L"
 		(shape input)
-		(at 265.43 74.93 0)
+		(at 229.87 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "01cc5c8b-41f5-46db-9d54-02b876fc9a5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.185 121.285 0)
+			(at 158.115 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,22 +5077,22 @@
 	)
 	(global_label "M_COL3"
 		(shape input)
-		(at 33.02 82.55 180)
+		(at 68.58 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "09e5d3d5-2385-4912-b34b-cb55ee8238a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.7777 82.55 0)
+			(at 78.8223 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5119,16 +5119,16 @@
 	)
 	(global_label "M_COL5"
 		(shape input)
-		(at 68.58 74.93 0)
+		(at 33.02 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0e39bb00-16d7-4599-bc3e-8c930922be8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 139.7 0)
+			(at 3.81 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,16 +5159,16 @@
 	)
 	(global_label "M_ROW4_L"
 		(shape input)
-		(at 229.87 74.93 180)
+		(at 265.43 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0effd032-43ee-4e8f-ae4e-0adf566230b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.115 -8.255 0)
+			(at 337.185 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,16 +5219,16 @@
 	)
 	(global_label "M_ROW4"
 		(shape input)
-		(at 68.58 72.39 0)
+		(at 33.02 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1585fdb4-038d-47c7-9fac-543874d9924e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 127 0)
+			(at 3.81 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,22 +5483,22 @@
 	)
 	(global_label "M_ROW3"
 		(shape input)
-		(at 33.02 77.47 180)
+		(at 68.58 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "610c7abf-7b24-404b-abcc-7153b66625ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.3544 77.47 0)
+			(at 79.2456 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5607,22 +5607,22 @@
 	)
 	(global_label "M_ROW2"
 		(shape input)
-		(at 33.02 74.93 180)
+		(at 68.58 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "79644b02-75eb-4c0d-b0fe-880dc5b147f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.3544 74.93 0)
+			(at 79.2456 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5649,22 +5649,22 @@
 	)
 	(global_label "M_COL2"
 		(shape input)
-		(at 33.02 87.63 180)
+		(at 68.58 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8094f349-3610-4077-9859-6258cdee202b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.7777 87.63 0)
+			(at 78.8223 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5691,16 +5691,16 @@
 	)
 	(global_label "M_ROW1"
 		(shape input)
-		(at 68.58 77.47 0)
+		(at 33.02 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "86319eac-311c-43b8-a82e-01d0340e03a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 119.38 0)
+			(at 3.81 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,16 +5711,16 @@
 	)
 	(global_label "M_COL2_L"
 		(shape input)
-		(at 265.43 87.63 0)
+		(at 229.87 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "974360a6-c4db-4351-bff5-02fd90f06a0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.83 -189.23 0)
+			(at 204.47 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5731,16 +5731,16 @@
 	)
 	(global_label "M_COL3_L"
 		(shape input)
-		(at 265.43 82.55 0)
+		(at 229.87 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "99713ebb-31f5-4c7c-a15d-4977c230a6d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.83 -194.31 0)
+			(at 204.47 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5831,22 +5831,22 @@
 	)
 	(global_label "M_COL1"
 		(shape input)
-		(at 33.02 85.09 180)
+		(at 68.58 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b012c296-e2c2-4aac-9cea-ea4614ccc12e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.7777 85.09 0)
+			(at 78.8223 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5873,16 +5873,16 @@
 	)
 	(global_label "M_ROW3_L"
 		(shape input)
-		(at 265.43 77.47 0)
+		(at 229.87 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "bc0bdd6b-c157-4aff-aeb3-68d64bf86125")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.185 146.05 0)
+			(at 158.115 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,16 +6055,16 @@
 	)
 	(global_label "M_COL5_L"
 		(shape input)
-		(at 229.87 77.47 180)
+		(at 265.43 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d6fc07c9-84fb-4b74-bfca-ee39fa591d04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 354.33 0)
+			(at 290.83 -199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,38 +6115,38 @@
 	)
 	(global_label "M_COL4"
 		(shape input)
-		(at 33.02 80.01 180)
+		(at 68.58 80.01 0)
 		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "def2c06c-09ed-4efc-8d27-ffe08eeead3a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.7777 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "M_COL4_L"
-		(shape input)
-		(at 265.43 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
+		(uuid "def2c06c-09ed-4efc-8d27-ffe08eeead3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.8223 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M_COL4_L"
+		(shape input)
+		(at 229.87 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
 		(uuid "e7484134-471e-4448-8a89-79a5b0a1c18b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.83 -196.85 0)
+			(at 204.47 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,16 +6157,16 @@
 	)
 	(global_label "M_ROW1_L"
 		(shape input)
-		(at 229.87 80.01 180)
+		(at 265.43 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "eb505490-7a08-4bc3-8579-a8e1d9c2ccfb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 43.18 0)
+			(at 342.9 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,16 +6177,16 @@
 	)
 	(global_label "M_COL1_L"
 		(shape input)
-		(at 265.43 85.09 0)
+		(at 229.87 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "eb74d947-b3bd-418e-a909-bb7cb7c7fc1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.83 -191.77 0)
+			(at 204.47 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6836,72 +6836,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 160.655 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09f00905-8f05-42b4-a7fe-d9d187795276")
-		(property "Reference" "#PWR0113"
-			(at 160.655 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.499 67.9449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.655 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.655 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.655 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb039884-3e73-4397-80ae-d0e816d49104")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 104.14 173.99 0)
 		(unit 1)
@@ -7523,72 +7457,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 160.655 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ebf55b2-09a7-4dc8-8b62-2c2166fb1446")
-		(property "Reference" "H107"
-			(at 159.385 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NA_M4"
-			(at 159.385 70.612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "local-libraries:MountingHole_3mm_Pad_Via"
-			(at 160.655 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.655 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.655 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "416f2dc9-040a-4c76-990c-e10ccd505522")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "H107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power_L:GND_L")
 		(at 339.09 62.865 0)
 		(unit 1)
@@ -8196,72 +8064,6 @@
 			(project "dilemma"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "H5002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power_L:GND_L")
-		(at 356.235 62.865 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f97629b-ca35-40e1-950a-976dc6d5099e")
-		(property "Reference" "#PWR05035"
-			(at 356.235 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_L"
-			(at 356.235 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 356.235 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.235 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 356.235 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7240be6-efd8-42d4-8f21-54861f1de715")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR05035")
 					(unit 1)
 				)
 			)
@@ -8956,72 +8758,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 154.305 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4caa68da-1d74-422f-8bbe-3c28c9ea4b69")
-		(property "Reference" "H106"
-			(at 153.035 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NA_M4"
-			(at 153.035 70.612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "local-libraries:MountingHole_3mm_Pad_Via"
-			(at 154.305 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.305 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.305 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "069bdd9d-f380-4c58-987e-4887748031e8")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "H106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 62.23 153.67 180)
 		(unit 1)
@@ -9151,72 +8887,6 @@
 			(project "dilemma"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR05026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power_L:GND_L")
-		(at 362.585 62.865 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ac15b83-b069-4cce-8bdb-3acdaa5ff813")
-		(property "Reference" "#PWR05037"
-			(at 362.585 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_L"
-			(at 362.585 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 362.585 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 362.585 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 362.585 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4398047a-aead-4254-91ce-93fdcb72a4d5")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR05037")
 					(unit 1)
 				)
 			)
@@ -9966,72 +9636,6 @@
 			(project "dilemma"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "SW5014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.305 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e3f02e6-08b0-4eba-ad24-218495a9d231")
-		(property "Reference" "#PWR0112"
-			(at 154.305 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.149 67.9449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.305 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.305 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.305 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e759481-bd1e-43d1-a516-704165a0cc70")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -10850,72 +10454,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 147.955 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0741fe9-d93d-4357-a2d0-5bf3cdec3ffd")
-		(property "Reference" "#PWR0111"
-			(at 147.955 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.799 67.9449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.955 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.955 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.955 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b3d2d84-2ac8-47cd-8dba-03b5f636c156")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 71.755 118.745 0)
 		(unit 1)
@@ -11718,138 +11256,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 356.235 60.325 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6253d17-2ab0-4e86-9689-453b75c8acd8")
-		(property "Reference" "H5005"
-			(at 354.965 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NA_M4"
-			(at 354.965 72.517 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "local-libraries:MountingHole_3mm_Pad_Via"
-			(at 356.235 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 356.235 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 356.235 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34608715-1f09-4051-9ef5-e2fcbebfa3de")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "H5005")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power_L:GND_L")
-		(at 349.885 62.865 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba3a3e4f-d4a5-47f8-af26-edcfc7202ede")
-		(property "Reference" "#PWR05033"
-			(at 349.885 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_L"
-			(at 349.885 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 349.885 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.885 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 349.885 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74431cdb-becf-4371-bc33-f12440bb6a8f")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR05033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 312.42 175.26 180)
 		(unit 1)
@@ -12115,72 +11521,6 @@
 			(project "dilemma"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "D5042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 349.885 60.325 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2772525-c5fa-4432-be9b-d53e2023ace3")
-		(property "Reference" "H5004"
-			(at 348.615 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NA_M4"
-			(at 348.615 72.517 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "local-libraries:MountingHole_3mm_Pad_Via"
-			(at 349.885 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 349.885 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 349.885 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6102e9b2-d790-4579-8625-186bfd8244c8")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "H5004")
 					(unit 1)
 				)
 			)
@@ -13911,72 +13251,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 147.955 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f149694e-4336-45f7-8a0b-aed91118ad18")
-		(property "Reference" "H105"
-			(at 146.685 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NA_M4"
-			(at 146.685 70.612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "local-libraries:MountingHole_3mm_Pad_Via"
-			(at 147.955 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.955 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.955 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2de38d86-7c82-418c-99ca-14d4f0d099d3")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "H105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 274.32 175.26 0)
 		(unit 1)
@@ -14240,72 +13514,6 @@
 			(project "dilemma"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "D5045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 362.585 60.325 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8e56cb8-9852-4c80-96d8-039933fcf4d7")
-		(property "Reference" "H5006"
-			(at 361.315 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NA_M4"
-			(at 361.315 72.517 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "local-libraries:MountingHole_3mm_Pad_Via"
-			(at 362.585 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 362.585 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 362.585 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "812c7326-9f47-490c-bc77-b09227e4dc12")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "H5006")
 					(unit 1)
 				)
 			)

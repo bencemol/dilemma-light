@@ -38,6 +38,7 @@ fabrication-output/*
 *.AI
 4x6/gerber
 4x6/gerber/*
+production
 
 # MacOS
 .DS_Store
