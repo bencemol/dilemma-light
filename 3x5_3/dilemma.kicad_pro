@@ -511,16 +511,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "M_COL1_L"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "M_COL2_L"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
