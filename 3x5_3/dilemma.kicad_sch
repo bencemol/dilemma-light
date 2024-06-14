@@ -2360,7 +2360,7 @@
 		(uuid "83467518-7011-405f-9851-7ae9a3e66de1")
 	)
 	(no_connect
-		(at 224.79 124.46)
+		(at 228.6 124.46)
 		(uuid "924c0b5b-6f60-4fae-bba8-872f6b1640b6")
 	)
 	(no_connect
@@ -5199,16 +5199,16 @@
 	)
 	(global_label "BAT_L"
 		(shape input)
-		(at 224.79 119.38 180)
+		(at 238.76 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "12c140a6-f8b3-46ba-a485-239779267319")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 347.98 250.19 0)
+			(at 115.57 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,16 +5893,16 @@
 	)
 	(global_label "BAT_SW_L"
 		(shape input)
-		(at 234.95 121.92 0)
+		(at 228.6 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c219941d-6689-4861-9c3d-fe6c3689b880")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 -8.89 0)
+			(at 351.79 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13103,7 +13103,7 @@
 	)
 	(symbol
 		(lib_id "jiran-ble:SW_DPDT")
-		(at 228.6 121.92 0)
+		(at 232.41 121.92 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13112,7 +13112,7 @@
 		(dnp no)
 		(uuid "ec8a14e1-8e78-429b-b81d-7c0449caa796")
 		(property "Reference" "PSW5002"
-			(at 229.87 113.665 0)
+			(at 233.68 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13120,7 +13120,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 229.87 116.205 0)
+			(at 233.68 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13128,7 +13128,7 @@
 			)
 		)
 		(property "Footprint" "local-libraries:Switch_MSK-12C01-07"
-			(at 227.965 114.3 0)
+			(at 231.775 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13137,7 +13137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.965 114.3 0)
+			(at 231.775 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13146,7 +13146,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 121.92 0)
+			(at 232.41 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13155,7 +13155,7 @@
 			)
 		)
 		(property "LCSC" "C431540"
-			(at 228.6 121.92 0)
+			(at 232.41 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
