@@ -167,17 +167,6 @@
 		(layer "F.SilkS")
 		(uuid "9f619287-ad98-45fa-b8d1-684d609acd42")
 	)
-	(fp_rect
-		(start 1.3 -5.1)
-		(end 14 3.4)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "a9c57150-a1ce-4065-8b72-b3985848bdc3")
-	)
 	(fp_line
 		(start -1.524 -1.397)
 		(end -1.524 34.417)
