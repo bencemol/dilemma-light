@@ -6320,7 +6320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 300.99 180.34 0)
 			(effects
 				(font
@@ -6453,7 +6453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 247.65 160.02 0)
 			(effects
 				(font
@@ -6520,7 +6520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 50.8 179.07 0)
 			(effects
 				(font
@@ -6860,7 +6860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 104.14 168.91 0)
 			(effects
 				(font
@@ -6927,7 +6927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 77.47 158.75 0)
 			(effects
 				(font
@@ -7280,7 +7280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 300.99 170.18 0)
 			(effects
 				(font
@@ -7347,7 +7347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 157.48 168.91 0)
 			(effects
 				(font
@@ -7414,7 +7414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 50.8 158.75 0)
 			(effects
 				(font
@@ -7895,7 +7895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 300.99 149.86 0)
 			(effects
 				(font
@@ -8094,7 +8094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 157.48 148.59 0)
 			(effects
 				(font
@@ -8161,7 +8161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 157.48 158.75 0)
 			(effects
 				(font
@@ -8228,7 +8228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 77.47 148.59 0)
 			(effects
 				(font
@@ -8649,7 +8649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 274.32 180.34 0)
 			(effects
 				(font
@@ -9052,7 +9052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 130.81 168.91 0)
 			(effects
 				(font
@@ -9188,7 +9188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 77.47 168.91 0)
 			(effects
 				(font
@@ -9453,7 +9453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 247.65 149.86 0)
 			(effects
 				(font
@@ -9599,7 +9599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 327.66 149.86 0)
 			(effects
 				(font
@@ -9804,7 +9804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 354.33 160.02 0)
 			(effects
 				(font
@@ -9871,7 +9871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 247.65 170.18 0)
 			(effects
 				(font
@@ -9938,7 +9938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 130.81 158.75 0)
 			(effects
 				(font
@@ -10074,7 +10074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 104.14 148.59 0)
 			(effects
 				(font
@@ -10141,7 +10141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 354.33 170.18 0)
 			(effects
 				(font
@@ -10677,7 +10677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 130.81 148.59 0)
 			(effects
 				(font
@@ -11146,7 +11146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 274.32 160.02 0)
 			(effects
 				(font
@@ -11213,7 +11213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 104.14 179.07 0)
 			(effects
 				(font
@@ -11415,7 +11415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 274.32 149.86 0)
 			(effects
 				(font
@@ -11551,7 +11551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 354.33 149.86 0)
 			(effects
 				(font
@@ -11618,7 +11618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 300.99 160.02 0)
 			(effects
 				(font
@@ -11754,7 +11754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 327.66 170.18 0)
 			(effects
 				(font
@@ -11821,7 +11821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 247.65 180.34 0)
 			(effects
 				(font
@@ -12720,7 +12720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 104.14 158.75 0)
 			(effects
 				(font
@@ -12787,7 +12787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 327.66 160.02 0)
 			(effects
 				(font
@@ -12854,7 +12854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 50.8 168.91 0)
 			(effects
 				(font
@@ -12990,7 +12990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 50.8 148.59 0)
 			(effects
 				(font
@@ -13275,7 +13275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 274.32 170.18 0)
 			(effects
 				(font
@@ -13408,7 +13408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "local-libraries:SW_Kailh_Choc_V1V2_1.00u"
 			(at 77.47 179.07 0)
 			(effects
 				(font
