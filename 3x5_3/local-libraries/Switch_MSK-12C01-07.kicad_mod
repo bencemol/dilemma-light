@@ -35,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -47,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +61,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -70,21 +73,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
-	(fp_rect
-		(start -4.5 -3)
-		(end 4.5 2)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "a655650e-ab57-4557-8bea-f2cfb4d0b557")
-	)
 	(fp_line
 		(start -3.3 -1.35)
 		(end -3.3 1.35)
@@ -236,7 +229,7 @@
 		(uuid "0091dc28-751d-4986-be2c-060cbc58d0e3")
 	)
 	(fp_text user "ON/OFF"
-		(at 2.25 2.5 180)
+		(at 2.25 -4.62 180)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ef2b335a-67e3-401b-b711-4409550bbc7e")
