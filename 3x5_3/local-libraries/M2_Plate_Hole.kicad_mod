@@ -1,4 +1,4 @@
-(footprint "M2_Mounting_Hole"
+(footprint "M2_Plate_Hole"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "M2_Mounting_Hole"
+	(property "Value" "M2_Plate_Hole"
 		(at 0 3.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -102,12 +102,11 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 4.4 4.4)
-		(drill 2.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(drill 4.4)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "837c3183-eaa3-43af-8443-da0c5d3cc4c4")
 	)
 )
